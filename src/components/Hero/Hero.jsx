@@ -8,8 +8,8 @@ const Hero = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              <span className="block">Productos del Mar</span>
-              <span className="block text-blue-400">Directos de Puerto Libertad</span>
+              <span className="block">Comercio Maritimo</span>
+              <span className="block text-blue-400">Puerto Libertad Sonora</span>
             </h1>
 
             <p className="text-lg md:text-xl text-white drop-shadow-lg max-w-3xl mx-auto mb-8">
