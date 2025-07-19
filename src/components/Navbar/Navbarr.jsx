@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Logo from '../../assets/Logo.png';
 
 const NavbarLinks = [
-  { id: 1, title: 'Inicio', Link: 'home' },
+  { id: 1, title: 'Inicio', Link: 'inicio' },
   { id: 2, title: 'Nosotros', Link: 'nosotros' },
   { id: 3, title: 'Productos', Link: 'productos' },
   { id: 4, title: 'Contacto', Link: 'contacto' },

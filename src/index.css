@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @import 'bootstrap-icons/font/bootstrap-icons.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 
 body{
-    background-color: blue;
+    font-family: 'Poppins', sans-serif;
 }
