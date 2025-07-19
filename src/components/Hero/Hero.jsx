@@ -36,9 +36,9 @@ const Hero = () => {
           </a>
         </div>
       </section>
-
+      <div className='scroll-smooth bg-gradient-to-b via-white/60 to-white/60'>
       {/* SECCIÓN NOSOTROS */}
-      <section id="nosotros" className="py-20 bg-white/30 text-black">
+      <section id="nosotros" className="py-20  text-black">
         <div className="max-w-5xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Quiénes Somos</h2>
           <p className="text-lg">
@@ -50,7 +50,7 @@ const Hero = () => {
       </section>
 
       {/* SECCIÓN PRODUCTOS */}
-      <section id="productos" className="py-20 bg-white/50 text-black">
+      <section id="productos" className="py-20  text-black">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Líneas de Producto</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
@@ -71,19 +71,20 @@ const Hero = () => {
       </section>
 
       {/* SECCIÓN CONTACTO */}
-      <section id="contacto" className="py-20 bg-white/60 text-black">
+      <section id="contacto" className="py-20 text-black">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Contáctanos</h2>
           <p className="mb-6">
             ¿Quieres comprar en volumen, hacer un pedido o colaborar con nosotros? Estos son nuestros medios de contacto:
           </p>
           <div className="space-y-2">
-            <p><strong>Teléfono:</strong> (123) 456-7890</p>
-            <p><strong>Email:</strong> contacto@puertolibertad.com</p>
+            <p><strong>Teléfono:</strong> (637) 376-3197</p>
+            <p><strong>Email:</strong> pelayopuerto6@gmail.com</p>
             <p><strong>Ubicación:</strong> Puerto Libertad, Sonora</p>
           </div>
         </div>
       </section>
+      </div>
     </main>
   );
 };

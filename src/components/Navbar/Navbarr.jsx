@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed w-full top-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-black/90 backdrop-blur-sm shadow-lg' : 'bg-black/60 backdrop-blur-sm'
+        scrolled ? 'bg-black/70 backdrop-blur-sm shadow-lg' : 'bg-black/60 backdrop-blur-sm'
       }`}
       aria-label="Navegación principal"
     >
