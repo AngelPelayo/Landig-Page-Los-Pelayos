@@ -38,7 +38,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo y menú principal */}
-          <div className="flex items-center">
+          <div className="flex shrink-0">
             <a 
               href="#home" 
               className="flex-shrink-0"
@@ -55,8 +55,9 @@ const Navbar = () => {
                 height="40"
               />
             </a>
-
-            <div className="hidden md:ml-10 md:block">
+            </div>
+                {/* Columna centro: Links */}
+            <div className="hidden md:block absolute left-1/2 -translate-x-1/2">
               <ul className="flex space-x-6">
                 {NavbarLinks.map((link) => (
                   <li key={link.id}>
@@ -74,10 +75,10 @@ const Navbar = () => {
                 ))}
               </ul>
             </div>
-          </div>
+          
 
           {/* Menú móvil */}
-          <div className="md:hidden flex items-center">
+          <div className="md:hidden">
             <button
               onClick={() => setMenuOpen(!menuOpen)}
               className="text-white hover:text-blue-400 focus:outline-none text-2xl"
@@ -97,7 +98,7 @@ const Navbar = () => {
       {/* Menú desplegable móvil */}
       {menuOpen && (
         <div className="md:hidden" role="dialog" aria-modal="true">
-          <div className="px-2 pt-2 pb-4 space-y-2">
+          <div className="text-center px-2 pt-2 pb-4 space-y-2">
             {NavbarLinks.map((link) => (
               <a
                 key={link.id}
